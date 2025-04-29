@@ -1,3 +1,7 @@
+## Developed by: GOKUL S
+
+## RegisterNumber: 212224240045
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -44,8 +48,8 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: Priyadharshini.P RegisterNumber: 212223240128
-*/
+Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+
 ```
 **full adder**
 module full_adder(a,b,cin,sum,carry);
@@ -63,7 +67,7 @@ or(carry,w2,w3,w4);
 endmodule
 
 **full subtractor**
-module full_subtracter(a,b,Bin,BO,DIFF);![Screenshot 2024-03-28 154124](https://github.com/priyadharshini210/FULL_ADDER_SUBTRACTOR/assets/148514638/dc75caa2-c185-4074-b910-18363ceccbf4)
+module full_subtracter(a,b,Bin,BO,DIFF);
 
 input a,b,Bin;
 output BO,DIFF;
